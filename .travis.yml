@@ -1,0 +1,47 @@
+matrix:
+  include:
+    - language: python
+      python: 2.7
+      before_script:
+        - cd python
+      script:
+        - python solution_test.py
+
+    - language: python
+      python: 3.7
+      before_script:
+        - cd python
+      script:
+        - python solution_test.py
+
+    - language: java
+      dist: trusty
+      jdk: oraclejdk8
+      before_script:
+        - cd java
+      script:
+        - ./gradlew build
+
+    - language: java
+      dist: trusty
+      jdk: oraclejdk8
+      before_script:
+        - cd java
+      script:
+        - mvn clean install
+
+    - language: java
+      dist: trusty
+      jdk: oraclejdk11
+      before_script:
+        - cd java
+      script:
+        - ./gradlew build
+
+    - language: java
+      dist: trusty
+      jdk: oraclejdk11
+      before_script:
+        - cd java
+      script:
+        - mvn clean install

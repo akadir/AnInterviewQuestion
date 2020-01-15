@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'interview-solution'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+jar {
+    manifest {
+        attributes('Main-Class': 'interviewsolution.akadir.InterviewSolution')
+    }
+}
+
+task printProperty {
+    doLast {
+        if (project.hasProperty("getProp"))
+            println project.findProperty(getProp)
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

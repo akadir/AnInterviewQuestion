@@ -1,0 +1,14 @@
+.vscode
+java/.gradle
+java/build/classes
+java/build/generated
+java/build/reports
+java/build/test-results
+java/build/tmp
+java/target/classes
+java/target/generated-sources
+java/target/generated-test-sources
+java/target/maven-archiver
+java/target/maven-status
+java/target/surefire-reports
+java/target/test-classes
