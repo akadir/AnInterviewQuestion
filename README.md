@@ -1,4 +1,4 @@
-# Interview Question
+# An Interview Question
 
 A programming question have sent to me by one of the companies I have applied for a job via email the other day. 
 
