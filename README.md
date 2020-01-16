@@ -2,6 +2,19 @@
 
 [![Build Status](https://travis-ci.org/akadir/AnInterviewQuestion.svg?branch=master)](https://travis-ci.org/akadir/AnInterviewQuestion)
 
+## Content
+
+[**1- Question**](#question)
+
+[**2- My Solutions**](#my-solutions)
+
+[**2.1 - Python Solution**](#python-solution)
+
+[**2.2 - Java Solution**](#java-solution)
+
+
+## Question
+
 A programming question has been sent to me by one of the companies I have applied for a job via email the other day. 
 
 Here is definition of the question:
