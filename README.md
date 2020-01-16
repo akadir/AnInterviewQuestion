@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/akadir/AnInterviewQuestion.svg?branch=master)](https://travis-ci.org/akadir/AnInterviewQuestion)
 
-A programming question have sent to me by one of the companies I have applied for a job via email the other day. 
+A programming question has been sent to me by one of the companies I have applied for a job via email the other day. 
 
 Here is definition of the question:
 
