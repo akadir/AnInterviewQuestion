@@ -51,9 +51,9 @@ if __name__ == '__main__':
     start = time.time()
     recursive_result = recursive_solution(number)
     end = time.time()
-    print('There are ', iterative_result, ' different way(s) | Calculated in ', end - start, ' seconds using Recursive method')
+    print('There are ', recursive_result, ' different way(s) | Calculated in ', end - start, ' seconds using Recursive method')
 
     start = time.time()
-    recursive_result = recursive_solution_with_memoization(number)
+    recursive_with_memoization_result = recursive_solution_with_memoization(number)
     end = time.time()
-    print('There are ', iterative_result, ' different way(s) | Calculated in ', end - start, ' seconds using Memoization method')
+    print('There are ', recursive_with_memoization_result, ' different way(s) | Calculated in ', end - start, ' seconds using Memoization method')
